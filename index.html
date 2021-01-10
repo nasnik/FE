@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Yusei+Magic&display=swap" rel="stylesheet">
     <title>Сайт визитка </title>
 </head>
 <body>
 <header>
+   <div class="main_nav">
+       <ul class="nav">
+           <li><a href="#About me" class="menu">About me</a></li>
+           <li><a href="#Education" class="menu">Education</a></li>
+           <li><a href="#Summary of qualifications" class="menu">Summary of qualifications</a></li>
+           <li><a href="#Courses" class="menu">Courses</a></li>
+           <li><a href="#Contact me" class="menu">Contact me</a></li>
+       </ul>
   <h1>Anastasia Nikulkina. Front-End Developer.</h1>
-  <img src="myPhoto.jpg" alt="This is my photo" width="100">
+  <div class="photo_wrapper">
+       <img class="main_photo" src="myPhoto.jpg" alt="This is my photo" width="100">
+  </div>
   <hr>
 </header>
-<main>
-  <h2>About me</h2>
+<main class = "main_blocks">
+  <h2 id="About me">About me</h2>
   <blockquote>I’m motivated by big problems, love to feel that my work matters, excited to be the person who makes the difference. These days I'm focused in Front-End technologies, algorithms, data structures - all that will help me to become a great professional in IT.</blockquote>
   <hr>
-  <h2>Education</h2>
+  <h2 id="Education">Education</h2>
   <blockquote>Master of Engineering (M.E.), Moscow Engineering Physics Institute, Moscow, Russia</blockquote>
   <hr>
-  <h2>Summary of qualifications</h2>
+  <h2 id="Summary of qualifications">Summary of qualifications</h2>
       <ul>
       <li>Hands-on programming experience in JavaScript</li>
         <li>Knowledge of HTML and CSS</li>
@@ -25,7 +37,7 @@
         <li>Knowledge of NodeJs</li>
   </ul>
   <hr>
-  <h2>Courses</h2>
+  <h2 id="Courses">Courses</h2>
   <ol>
       <li><em>04/2020 - 09/2020</em>, <strong>Front-End Development</strong>, Skillfactory, Moscow, Russia</li>
       <li><em>02/2019 - 07/2019</em>, <strong>JavaScript programming</strong>, PASV, Sunnyvale, CA, USA.</li>
@@ -33,10 +45,10 @@
 </main>
 <footer>
   <hr>
-  <h2>Contact me</h2>
+  <h2 id="Contact me">Contact me</h2>
   <a href="https://www.linkedin.com/in/anastasia-nikulkina-18033517b/">
     <img src="linkedin_logo.png" width = "50" alt="My LinkedIn profile link" title="My LinkedIn profile">
   </a>
-</footer>
+    </footer>
 </body>
 </html>

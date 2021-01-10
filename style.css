@@ -1,0 +1,59 @@
+@font-face{
+    src: url("./fonts/YuseiMagic-Regular.ttf");
+    font-family: 'Yusei Magic', sans-serif;
+}
+@font-face {
+    src: url("./fonts/Montserrat-SemiBold.ttf");
+    font-family: 'Montserrat', sans-serif;;
+}
+h1{
+    background-color: coral;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+h2{
+    font-family: 'Yusei Magic', sans-serif;
+    color: coral;
+}
+body{
+    font-family: 'Montserrat', sans-serif, "Arial", sans-serif;
+    color: grey;
+}
+.photo_wrapper{
+    border: dot-dash 2px coral;
+    text-align: center;
+    background-color: beige;
+}
+.main_photo{
+    border-radius: 50%;
+    border: coral 3px dot-dash;
+}
+.main_nav{
+    width: 100%;
+    min-height: 30px;
+    text-align: center;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 50px;
+}
+.nav>li {
+    margin: 0 15px;
+}
+.menu {
+    background: coral;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.main_blocks{
+    display: flex;
+    flex-direction: column;
+}
